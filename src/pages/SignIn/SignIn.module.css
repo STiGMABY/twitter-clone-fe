@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background: rgb(84,75,223);
+    background: linear-gradient(90deg, rgba(84,75,223,1) 0%, rgba(65,125,227,0.5102415966386555) 35%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 50%;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.right {
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 50%;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+}

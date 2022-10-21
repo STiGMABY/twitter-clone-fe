@@ -2,7 +2,7 @@ import React, { FC, useState } from 'react'
 import styles from './SignIn.module.css'
 import { Button, Typography } from '@mui/material'
 import TwitterIcon from '@mui/icons-material/Twitter'
-import { FormDialog } from '../../components/FormDialog'
+import { FormDialog } from '../../components/FormDialog/FormDialog'
 import { DialogType } from './constants'
 
 export const SignIn: FC = () => {

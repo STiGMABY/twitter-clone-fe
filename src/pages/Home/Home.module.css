@@ -1,3 +1,25 @@
-.main {
+.ul {
+    list-style: none;
+    /*margin-right: 205px;*/
+}
+
+.search{
+    border: 1px solid dodgerblue;
+    border-radius: 25px;
+    height: 35px;
+    background-color: red;
+}
+
+.middleBlock {
+    border: 1px solid dodgerblue;
+    height: 100vh;
+}
+
+.userTwitWrapper {
+    margin: 10px;
+}
+
+.twitBlock{
 
 }
+
